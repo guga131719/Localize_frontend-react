@@ -7,10 +7,7 @@ const Login = ({ onLogin }) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Aqui você pode realizar alguma validação dos dados do login
-        // e fazer uma requisição para autenticar o usuário se necessário.
 
-        // Exemplo de autenticação simples:
         if (username === 'usuario' && password === 'senha') {
             onLogin(username);
         }

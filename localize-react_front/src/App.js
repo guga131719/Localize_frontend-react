@@ -13,15 +13,7 @@ const App = () => {
     };
 
     const handleCpfSubmit = (cpf) => {
-        // Aqui você pode fazer a requisição para a API com o CPF informado.
-        // Exemplo de requisição usando axios:
-        // axios.post('https://sua-api.com/alguma-rota', { cpf })
-        //   .then((response) => {
-        //     console.log(response.data);
-        //   })
-        //   .catch((error) => {
-        //     console.error(error);
-        //   });
+ 
     };
 
     return (
